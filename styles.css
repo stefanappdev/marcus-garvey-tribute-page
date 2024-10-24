@@ -10,9 +10,6 @@ box-sizing:border-box;
 	text-align:center;
 }
 
-body{
-	background-color:#c0c7cc;
-}
 
 header{
 	display:flex;
@@ -26,22 +23,50 @@ header>nav ul{
 	align-items:center;
 }
 
+#about-content> p{
+	margin:20px 0 20px 0;
+	max-width:85%;
+	
+}
 
-header>nav ul li{
+#contributions p{
+margin:20px 0 20px 0;
+	max-width:75%;
+
+}
+
+header ul li{
 	padding-top:10px;
 	list-style:none;
 	margin-left:1rem;
 }
 
-header>nav ul li>a{
+header a{
 	text-decoration:none;
 	color:white;
 	font-size:20px;
+	font-weight:bold;
 	cursor:pointer;
 	
 }
 
-header>nav ul li>a:hover{
+#more-info a li{
+	margin:10px 10px 10px 10px;
+	list-style:decimal;
+	
+	
+}
+
+
+
+
+#img-title{
+	font-size:30px;
+	font-weight:bold;
+}
+
+
+header a:hover{
 	background-color:#a1bfc4;
 	
 }
@@ -51,17 +76,63 @@ header>nav ul li>a:hover{
 	align-items:center;
 	justify-content:center;
 	flex-direction:column;
-	margin-top:2rem;
+	margin:2rem auto 2rem auto;
+	width:25%;
 	
 }
 
 
-.divider{
-	border:solid 1px black;
-	margin: 5px 0 5px 0;
+
+#img-caption{
+	margin-top:10px;
+}
+
+#contributions,#more-info,#about{
+	padding-left:20px;
+
+}
+
+.tribute-content{
+	background-color:#dcdee7;
+}
+
+
+#contributions ul li{
+	margin:20px 0 20px 10px;
+	list-style-type:disc;
+}
+
+
+
+.md-divider{
+	border:solid 2px black;
+	margin: 0;
  
 }
 
+.sml-divider{
+	
+	border:solid 1px black;
+	margin: 0;
+}
+
+
 #img-div>img{
+	width:500px;
+	max-width:100%;
+	height:auto;
+	display:block; 
 	border-radius:50%;
 }
+
+.external-link{
+	text-decoration:none;
+	font-weight:bold;
+	color:black;
+}
+
+footer{
+	text-align:center;
+	background-color:pink;
+}
+
